@@ -1,0 +1,38 @@
+.plus-minus-div {
+    margin: 0px 0px 25px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #EAEAEA;
+    background: rgb(246, 246, 246, .84);
+    border-radius: 5px;
+}
+  .value-button {
+    display: flex;
+    margin: 0px;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #0140B9;
+}
+.plus-minus-div input {
+    text-align: center;
+    background: rgb(246, 246, 246, .84);
+    border: none;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    color: #666666;
+  }
+  

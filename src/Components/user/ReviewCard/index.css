@@ -1,0 +1,17 @@
+.review-card {
+    background: #FFFFFF;
+    box-shadow: 1px 4px 31px 6px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.review-card-img {
+    width: 70px;
+    height: 70px !important;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.yellow-text{
+    color: #FFB400;
+}

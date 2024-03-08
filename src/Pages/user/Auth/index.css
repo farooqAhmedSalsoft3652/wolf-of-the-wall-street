@@ -1,0 +1,105 @@
+.auth-tabs .nav-item button {
+    color: white !important;
+    width: 100%;
+    border: 0 !important;
+    background: transparent !important;
+    padding: 20px;
+    border-bottom: 1px solid white !important;
+    opacity: .39;
+    font-size: 18px;
+    font-weight: 500;
+    transition: ease-in-out .2s;
+}
+
+.auth-tabs .nav-item {
+    width: 50% !important;
+}
+
+.auth-tabs {
+    border: 0 !important;
+}
+
+.auth-tabs .nav-item button.active, .auth-tabs .nav-item button:hover {
+    opacity: 1;
+}
+.terms-pills .nav-link.active .rotating-arrow svg {
+    transform: rotate(270deg) !important;
+}
+.terms-pills .nav-link{
+    color: #FFFFFF !important;
+    font-weight: 200 !important;
+}
+.terms-pills .nav-link.active{
+    color: #FFFFFF !important;
+    font-weight: 500 !important;
+    background: transparent !important;
+}
+/* .sticky-logo{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: #030B32;
+    z-index: 1;
+}
+.profile-inner .login-left-card{
+    margin-top: 30px;
+}
+.sticky-logo-wrapper{
+    position: relative;
+    height: 160px;
+} */
+.profile-inner .login-logo{
+    margin-top: -50px;
+}
+.profile-inner .login-left-card{
+    padding-bottom: 40px;
+}
+.profile-inner {
+    padding-bottom: 0;
+}
+.profile-inner .login-left-card-inner{
+    height: calc(100vh - 350px);
+    overflow: auto;
+    padding-bottom: 0;
+}
+.login-left-card-inner {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.login-left-card-inner::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.profile-header{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225, .39);
+}
+.profile-pic, .profile-pic img{
+    width: 119px;
+    height: 119px;
+}
+.profile-pic{
+    position: relative;
+}
+.profile-pic img{
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile-inner .form-check-input:checked, .profile-inner .form-check-input{
+    background-color: transparent !important;
+    border-color: white !important;
+}
+.profile-inner .form-switch .form-check-input{
+    background-image: url('../../../assets/images/bullet.svg') !important;
+}
+@media screen and (min-width: 992px) {
+    .w-lg-100{
+        width: 100%;
+    }
+    .modal-separator{
+        border-right: 1px solid rgb(255, 255, 255, .18);
+    }
+}

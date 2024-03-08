@@ -1,0 +1,12 @@
+.user-profile-img, .user-profile-img img{
+    width: 96px !important;
+    height: 96px !important;
+}
+.user-profile-img{
+    position: relative;
+}
+.user-profile-img img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}

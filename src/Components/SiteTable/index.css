@@ -1,0 +1,69 @@
+.table-price{
+    font-size: 25px;
+    font-weight: 700;
+    color: #DB8023;
+    font-family: 'Poppins', sans-serif;
+}
+table th {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+table td {
+    vertical-align: middle;
+    color: #666666;
+}
+table {
+    border-collapse: separate !important;
+    border-spacing: 0 10px;
+    white-space: nowrap;
+}
+table td, table th{
+    border: 0 !important;
+}
+table tbody tr{
+    background: white !important;
+    border-radius: 5px !important;
+}
+.table-tag{
+    width: 150px;
+    height: 46px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    margin: 0 auto;
+}
+.green-table-tag{
+    background: rgb(0, 227, 83, .17) !important;
+    color: #039D1C !important;
+}
+.red-table-tag{
+    background: rgb(227, 0, 0, .17) !important;
+    color: #D60000 !important;
+}
+.admin-table{
+    white-space: nowrap;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.admin-table tr th{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #1A1824 !important;
+}
+.admin-table tr td{
+    color: #999999 !important;
+    padding: 15px;
+}
+.admin-table tbody tr{
+    background: #F9F9F9 !important;
+    border: 1px solid #FAE4DD !important;
+}
+.admin-table a{
+    color: #777777;
+}

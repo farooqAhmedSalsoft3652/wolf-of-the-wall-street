@@ -1,0 +1,67 @@
+/* Base styles for the packages card */
+
+.packages-card {
+    background: #132243;
+    padding: 1.2rem;
+    transition: 0.5s ease-in-out;
+    border-radius: 13px;
+    border-color:#576685;
+    color: #9AA0AC;
+}
+.packages-card .package-name{
+    font-size: 17px;
+    background-color: #041437;
+    border: 1px solid #576685;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 50px;
+    display: inline-block;
+}
+.packages-card .card-body{
+    min-height: 250px;
+}
+.packages-card .price h3 {
+    font-size: 50px !important;
+    color: #fff;
+    font-weight: 600;
+}
+.packages-card span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #9AA0AC;
+}
+.packages-card p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.packages-card .package-feature{
+    list-style: none;
+}
+.packages-card .package-feature svg{
+    margin-top: 4px;
+    color: #fff;
+}
+.packages-card .site-btn{
+    font-weight: 300;
+}
+
+@media(max-width:1399px){
+    .packages-card .card-body {
+        min-height: 270px;
+    }
+}
+@media(max-width:1199px){
+    .packages-card p {
+        font-size: 16px;
+    }
+    .packages-card{
+        padding: 1rem;
+    }
+    .packages-card .price h3 {
+        font-size: 45px !important;
+    }
+    .packages-card .package-feature {
+        font-size: 15px;
+    }
+}

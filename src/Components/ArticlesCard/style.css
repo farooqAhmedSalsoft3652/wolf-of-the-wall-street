@@ -1,0 +1,80 @@
+/* Base styles for the packages card */
+
+.article-card {
+    background: #132243;
+    padding: 1rem;
+    transition: 0.5s ease-in-out;
+    border-radius: 13px;
+    border: none;
+    color: #9AA0AC;
+}
+.article-card .card-header{
+    border-color: #454F65;
+}
+.article-card .total-reactions span.count{
+    font-size: 13px;
+}
+.article-card .share-like-btns button{
+    padding:0 5px !important;
+}
+.article-card .share-like-btns button:not(:last-child){
+    border-right: 1px solid #454F65 !important;
+}
+.article-card .card-img-top{
+    border-radius: 13px;
+} 
+.article-card .author img {
+    height: 35px;
+    max-width: 35px;
+    object-fit: cover;
+    object-position: center;
+}
+.article-card .author h6{
+    font-size: 15px !important;
+}
+.article-card .view-count{
+    font-size: 14px;
+    color: #9CA2AE;
+}
+.article-card h3.title {
+    font-size: 18px !important;
+    line-height: 1.5;
+}
+
+.article-card h5.category-name {
+    font-size: 16px !important;
+    color: #4EADF0;
+}
+.article-card .card-text{
+    line-height: 1.6;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow: " [..]";
+}
+
+
+
+
+
+@media(max-width:1399px){
+    .packages-card .card-body {
+        min-height: 270px;
+    }
+}
+@media(max-width:1199px){
+    .packages-card p {
+        font-size: 16px;
+    }
+    .packages-card{
+        padding: 1rem;
+    }
+    .packages-card .price h3 {
+        font-size: 45px !important;
+    }
+    .packages-card .package-feature {
+        font-size: 15px;
+    }
+}

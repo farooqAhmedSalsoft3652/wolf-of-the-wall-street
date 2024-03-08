@@ -1,0 +1,58 @@
+.subscription-details .package-name{
+    font-size: 17px;
+    background-color: #041437;
+    border: 1px solid #576685;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 50px;
+    display: inline-block;
+}
+.subscription-details .price h3 {
+    font-size: 50px !important;
+    color: #fff;
+    font-weight: 600;
+}
+.subscription-details .price span {
+    font-size: 14px;
+    font-weight: 300;
+    color: #9AA0AC;
+}
+.radio-card{}
+.radio-card span{
+    font-size: 18px;
+}
+.radio-card .form-check-inline{
+    margin-right: 3rem;
+}
+.radio-card .form-check-input {
+    width: 17px;
+    height: 17px;
+    background-color: transparent;
+    border: 1px solid var(--bs-white);
+}
+.checkbox-container{
+    color: #D8D8D8;
+}
+.checkbox-container .checkmark{
+    border-width: 1px;
+}
+
+@media(max-width:767px){
+    .subscription-nav.nav-pills .nav-link{
+        min-width: 150px;
+    }
+}
+@media(max-width:575px){
+    .subscription-nav.nav-pills{
+        flex-direction: column;
+    }
+    .subscription-nav.nav-pills .nav-item{
+        margin-right: 0px;
+    }
+    .subscription-nav.nav-pills .nav-link{
+        min-width:auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

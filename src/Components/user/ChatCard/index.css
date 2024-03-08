@@ -1,0 +1,11 @@
+.chat-message {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+}
+@media screen and (max-width: 575px) {
+    .chat-message {
+        width: 205px;
+    }
+}

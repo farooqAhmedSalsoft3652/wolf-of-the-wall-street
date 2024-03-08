@@ -1,0 +1,51 @@
+.inner-banner {
+    background: url('../../../assets/images/inner-banner-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 135px;
+    text-align: center;
+    color: white;
+}
+.inner-banner-heading{max-width: 320px; margin: 0 auto;}
+.inner-banner-content {
+    max-width: 580px;
+    min-height: 140px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-barr {
+    position: relative;
+}
+
+.search-barr input.site-input,
+.form-control.site-input {
+    padding: 12px 130px 12px 20px;
+    border: 1px solid #FFFFFF;
+    color: white;
+    background: transparent;
+}
+
+.search-barr input.site-input,
+.form-control.site-input::placeholder {
+    color: rgb(255, 255, 255, .78);
+}
+
+.search-barr .site-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1px;
+    padding: 9px 25px;
+    min-width: 120px;
+}
+
+@media screen and (max-width: 1199px) {
+    .inner-banner {
+        padding-top: 110px;
+    }
+}

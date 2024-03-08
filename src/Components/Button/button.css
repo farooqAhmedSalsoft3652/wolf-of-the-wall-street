@@ -1,0 +1,85 @@
+.site-btn{
+    background: #0140B9;
+    padding: 12px 30px;
+    min-width: 160px;
+    border: 1px solid #0140B9;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    box-shadow: inset 0 3px 6px rgb(0, 0, 0, .16);
+    text-decoration: none;
+    text-align: center;
+
+}
+.site-btn:hover{
+    color: #fff;
+    background: transparent;
+    border-color: #ffffff;
+}
+.border-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.border-btn:hover{
+    background: #fff;
+    color: #0140B9;
+}
+.border-black-btn{
+    background: transparent;
+    border: 1px solid #0140B9;
+    color: #333333;
+}
+.border-black-btn:hover{
+    background: #0140B9;
+    color: white;
+}
+.black-border-btn{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.black-border-btn:hover{
+    background: black;
+    color: white;
+}
+.black-btn{
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+.black-btn:hover{
+    background: transparent;
+    color: black;
+}
+.white-btn{
+    border: 1px solid white;
+    background: white;
+    color: black;
+}
+.white-btn:hover{
+    background: transparent;
+    color: white;
+}
+.white-border-btn{
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+}
+.white-border-btn:hover{
+    border: 1px solid white;
+    color: #0140B9;
+    background: white;
+}
+.red-btn{
+    border: 1px solid #E90101;
+    background: #E90101;
+    color: white;
+}
+.red-btn:hover{
+    background: transparent;
+    color: #E90101;
+}
